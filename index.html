@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TRIPLE B FAMILY RESTAURENT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root {
+      --yellow:#ffd54f;
+      --yellow-deep:#f6b900;
+      --ink:#1c1c1c;
+      --muted:#696969;
+      --bg:#fffaf0;
+      --card:#ffffff;
+    }
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 20% -20%, rgba(255,227,130,.6), transparent 60%),
+        radial-gradient(800px 400px at 120% 10%, rgba(255,213,79,.35), transparent 40%),
+        var(--bg);
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(135deg, #fff3bf, var(--yellow));
+      padding: 18px 22px;
+      border-radius: 24px;
+      box-shadow: 0 12px 30px rgba(246,185,0,.25);
+    }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .brand .logo {
+      width: 56px; height: 56px; border-radius: 16px;
+      background: linear-gradient(145deg, var(--yellow), var(--yellow-deep));
+      display: grid; place-items: center;
+    }
+    .brand h1 { margin: 0; font-family: 'Playfair Display', serif; font-size: 28px; }
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(0,0,0,.06);
+      border-radius: 20px;
+      box-shadow: 0 10px 24px rgba(0,0,0,.06);
+      overflow: hidden;
+      margin-top: 22px;
+    }
+    .card-header {
+      padding: 16px 18px;
+      border-bottom: 1px dashed rgba(0,0,0,.06);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-title { font-weight: 800; }
+    .card-body { padding: 18px; }
+    .menu-hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: linear-gradient(145deg, #fff3bf, #ffe082 60%, #fff);
+      padding: 18px;
+      border-radius: 16px;
+    }
+    .menu-hero h2 { margin: 0; font-family: 'Playfair Display', serif; }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+      gap: 16px;
+      margin-top: 14px;
+    }
+    .dish {
+      background: #fff;
+      border: 1px solid rgba(0,0,0,.06);
+      border-radius: 16px;
+      padding: 14px;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .dish:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 22px rgba(246,185,0,.25);
+    }
+    .dish h3 { margin: 6px 0; font-family: 'Playfair Display', serif; }
+    .badge {
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #fff7da;
+      border: 1px solid rgba(246,185,0,.35);
+    }
+    .price { font-weight: 800; margin-top: 4px; }
+    /* Facilities full-width section */
+    .facilities-full {
+      width: 100vw;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      background: var(--yellow);
+      text-align: center;
+      padding: 20px 0;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      padding: 10px 0;
+    }
+    .dish-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.dish-link:hover .dish {
+  box-shadow: 0 10px 22px rgba(246,185,0,.35);
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo"><i class="fa-solid fa-utensils"></i></div>
+        <div>
+          <h1>TRIPLE B FAMILY RESTAURENT</h1>
+          
+        </div>
+      </div>
+    </header>
+
+    <!-- Menu Card -->
+    <section class="card">
+      <div class="card-header">
+        <div class="card-title"><i class="fa-solid fa-utensils"></i> Menu</div>
+      </div>
+      <div class="card-body">
+        <div class="menu-hero">
+          <div><h2>Ground Floor F8 Tanky Road Near Krishna Garden Bhati Market Harsh Vihal Molarband New Delhi 110044</h2></div>
+          <div><h2>Contact Number :- 8076053556</h2></div>
+          <div class="badge"><i class="fa-solid fa-star"></i> Premium</div>
+          
+        </div>
+        <!-- ... पहले का HTML वही है ... -->
+
+<div class="menu-grid">
+  <!-- Updated menu items with clickable links -->
+  <a href="index1.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Veg & Dal Corner</div>
+      <h3>Veg &amp; Dal Corner</h3>
+    </article>
+  </a>
+  <a href="pulao.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Pulao</div>
+      <h3>Pulao</h3>
+    </article>
+  </a>
+  <a href="Raita , Salad.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Raita / Salad</div>
+      <h3>Raita / Salad</h3>
+    </article>
+  </a>
+  <a href="Non Vegetarian.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Non Vegetarian</div>
+      <h3>Non Vegetarian</h3>
+    </article>
+  </a>
+  <a href="Desert.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Dessert</div>
+      <h3>Dessert</h3>
+    </article>
+  </a>
+  <a href="Triple 'B' Veg Thali.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Triple 'B' Veg Thali</div>
+      <h3>Triple 'B' Veg Thali</h3>
+    </article>
+  </a>
+  <a href="Triple 'B' Special Veg Thali.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Triple 'B' Special Veg Thali</div>
+      <h3>Triple 'B' Special Veg Thali</h3>
+    </article>
+  </a>
+  <a href="Triple 'B' Non Veg Thali.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Triple 'B' Non Veg Thali</div>
+      <h3>Non Veg Thali</h3>
+    </article>
+  </a>
+  <a href="Non Veg Chinese Platter.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Non Veg Chinese Platter</div>
+      <h3>Non Veg Chinese Platter</h3>
+    </article>
+  </a>
+  <a href="Roti Corner.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Roti Corner</div>
+      <h3>Roti Corner</h3>
+    </article>
+  </a>
+  <a href="Non Veg Gravy Corner.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Non Veg Gravy Corner</div>
+      <h3>Non Veg Gravy Corner</h3>
+    </article>
+  </a>
+  <a href="Mutton Corner.html" class="dish-link">
+    <article class="dish">
+      <div class="badge">Mutton Corner</div>
+      <h3>Mutton Corner</h3>
+    </article>
+  </a>
+</div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Full-width Facilities Section -->
+  <div class="facilities-full">
+    <a href="facilities.html">आपके लिए सुविधाएँ (Facilities)</a>
+    
+  </div>
+
+
+  <footer>© <span id="year"></span> Premium Menu • Water Bottle Partenered with BLUW Pakaged Drinking Water </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
